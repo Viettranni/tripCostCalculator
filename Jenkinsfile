@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Viettranni/tripCostCalculator.git'
+                git branch: 'main', url: 'https://github.com/Viettranni/tripCostCalculator.git'
             }
         }
         stage('Build') {
@@ -48,7 +48,7 @@ pipeline {
                         }
                     }
                 }
-                
+
         stage('Push Docker Image to Docker Hub') {
             steps {
                 // Push Docker image to Docker Hub
