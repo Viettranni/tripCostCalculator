@@ -14,7 +14,7 @@
     </properties>
 
      <build>
-        <finalName>tripCostCalaculator</finalName>
+        <finalName>tripCostCalculator</finalName>
         <plugins>
             <!-- Compiler Plugin for setting the Java version -->
             <plugin>
