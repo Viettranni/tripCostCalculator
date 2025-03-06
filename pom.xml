@@ -35,7 +35,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.TripCostCalculator</mainClass> <!-- Correct main class -->
+                            <mainClass>TripCostCalculator</mainClass> <!-- Correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
